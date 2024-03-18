@@ -1,0 +1,87 @@
+/* Style général */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #231a19;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Cartes de projet, compétences et veille technologique */
+.project-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+/* Style pour les boutons */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0f77e7;
+}
+
+/* Style pour les liens */
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/* Marge pour les sections */
+#skills, #technology-watch {
+    margin-top: 60px;
+}
